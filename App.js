@@ -1,11 +1,10 @@
-import { Text, View } from "react-native"
-import Button from "./src/components/Button/button"
+import Login from "./src/screens/login/login"
+import Account from "./src/screens/account/account"
 
 function App() {
   return (
     <>
-      <Text>Hello World!</Text>
-      <Button text="Acessar (disabled)" />
+      <Account />
     </>
   )
 }
