@@ -4,13 +4,12 @@ export const styles = {
   container: {
     backGroundColor: COLORS.white,
     flex: 1,
-    paddingTop: 20,
-    //justifyContent: "space-between",
+    padding: 12,
   },
   text: {
     fontSize: FONT_SIZE.md,
     color: COLORS.gray1,
-    marginTop: 15,
+    marginBottom: 15,
     marginLeft: 10,
   },
 }
