@@ -1,11 +1,11 @@
 import { View, Text, FlatList } from "react-native";
-import { styles } from "./home.style";
+import { styles } from "./abahome.style";
 import { doctors } from "../../constants/data";
 import Doctor from "../../components/Doctor/doctor";
 import icon from "../../constants/icon"
 
 
-function Home() {
+function AbaHome() {
     return <View style={styles.container}>
         <Text style={styles.text}>Agende os seus serviços médicos.</Text>
         <FlatList data={doctors}
@@ -18,4 +18,4 @@ function Home() {
             }} />
     </View>;
 }
-export default Home;
+export default AbaHome;
