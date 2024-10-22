@@ -1,10 +1,9 @@
-import { appointments } from "../../constants/data.js"
 import { COLORS, FONT_SIZE } from "../../constants/theme.js"
 
 export const styles = {
   appointment: {
-    backGroundColor: COLORS.white,
     flex: 1,
+    backgroundColor: COLORS.white,
     padding: 12,
     borderWidth: 1,
     borderColor: COLORS.gray4,
@@ -41,10 +40,8 @@ export const styles = {
     flex: 1,
   },
   containerButton: {
-    justifyContent: "center",
-    alignItems: "center",
+    marginTop: 5,
   },
-
   container: {
     flexDirection: "row",
   },
