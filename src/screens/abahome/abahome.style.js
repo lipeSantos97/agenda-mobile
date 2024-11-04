@@ -2,7 +2,7 @@ import { COLORS, FONT_SIZE } from "../../constants/theme.js"
 
 export const styles = {
   container: {
-    backGroundColor: COLORS.white,
+    backgroundColor: COLORS.white,
     flex: 1,
     padding: 12,
   },
